@@ -18,23 +18,16 @@ const index = () => {
                                 fontWeight: "600",
                             }}
                         >
-                            We&apos;ll take you there!
+                            Please hire us!
                         </Typography>
                         <br />
                         <Typography>
-                            You name it&mdash;we&rsquo;ll kick your event into
-                            high gear. Galas, balls, beer and cider tastings,
-                            wine releases, street parties, barbecues, antique
-                            car shows, speakeasies, and festivals. Imagine your
-                            own little brass combo at your oyster roast,
-                            birthday, garden party or Oktoberfest: serenading
-                            your loved ones at Mother&rsquo;s or Father&rsquo;s
-                            Day, or on the bandstand on the 4th of July.
+                            Looking for a great band for your next wedding,
+                            graduation, holiday party, or whatever?
                         </Typography>
                         <br />
                         <Typography>
-                            Of course, The Hot 5 is always up for dances,
-                            engagements, weddings, and anniversaries!
+                            Just fill out the form and, yeah.
                         </Typography>
                     </Grid>
                     <Grid item xs={12} md={6}>

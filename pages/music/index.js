@@ -10,16 +10,11 @@ const index = () => {
     return (
         <PageLayout name="1920's TRAD JAZZ">
             <Container maxWidth="md">
-                {/* <Container maxWidth="sm">
+                <Container maxWidth="sm">
                     <Typography className="section">
-                        Louis Armstrong combo meets Mardi Gras street party.
-                        Thrill to the trumpet&rsquo;s call, the clarinet&rsquo;s
-                        wail, and the trombone&rsquo;s growl. Thumpin&rsquo;
-                        strings send your body into an unstoppable rhythm. Like
-                        a strong cocktail, Zuzu&rsquo;s vocals will{" "}
-                        <em>transport</em> you.
+                        We play the coolest music, and you fucking know it.
                     </Typography>
-                </Container> */}
+                </Container>
                 {musicContent.songs.map((song, index) => {
                     return (
                         <Box key={index}>

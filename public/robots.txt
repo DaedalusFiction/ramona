@@ -1,6 +1,6 @@
 # Block all crawlers for /susanna
 User-agent: *
-Disallow: /susanna
+Disallow: /ramona
 
 # Allow all crawlers
 User-agent: *
