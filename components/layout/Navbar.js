@@ -35,7 +35,7 @@ const Navbar = () => {
                 ticking = false;
                 return;
             }
-            setTrigger(scrollY > lastScrollY ? true : true);
+            setTrigger(scrollY > lastScrollY ? false : true);
             setTitleFontSize(scrollY < lastScrollY ? "2rem" : "2rem");
             lastScrollY = scrollY > 0 ? scrollY : 0;
             ticking = false;
@@ -161,7 +161,7 @@ const Navbar = () => {
                                     noWrap
                                     sx={{
                                         display: { xs: "flex", md: "none" },
-                                        fontSize: "1.75rem",
+                                        fontSize: "1.5rem",
                                         textAlign: "center",
                                         transition: "1000ms",
                                         color: theme.palette.custom.light,

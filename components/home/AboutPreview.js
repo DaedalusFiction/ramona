@@ -28,19 +28,16 @@ const AboutPreview = () => {
                             }}
                         >
                             <Typography>
-                                For over 10 years, the Hot 5, fueled by the
-                                Traditioinal Jazz of Buddy Bolden, King Oliver,
-                                and Louis Armstrong, has supplied stomps, viper
-                                blues, and struts, summoning the rich musical
-                                history of NOLA and the roots of <em>Jass.</em>
+                                This is the description of the band called
+                                Ramona Martinez and the Holy Smokes
                             </Typography>
                             <Typography>
-                                Add a Swing dance or a romantic ballad and
-                                you&apos;ve got High-Octane Gilded Age Madness!
+                                They are a really cool band and they sound just
+                                great!
                             </Typography>
                             <Typography>
-                                They&apos;ll blow your top until the last
-                                call&mdash;or until the joint&apos;s raided!
+                                Really everyone should be like them, if you ask
+                                me. Very cool!
                             </Typography>
                             <Box
                                 sx={{

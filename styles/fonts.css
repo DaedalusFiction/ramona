@@ -9,6 +9,16 @@
     src: url("/fonts/parklane.regular.ttf") format("truetype");
     /* font-weight: 1 999; */
 }
+@font-face {
+    font-family: "Rye";
+    src: url("/fonts/Rye-Regular.ttf") format("truetype");
+    /* font-weight: 1 999; */
+}
+@font-face {
+    font-family: "Charmonman";
+    src: url("/fonts/Charmonman-Regular.ttf") format("truetype");
+    /* font-weight: 1 999; */
+}
 
 .color-test {
     color: #f7d195;

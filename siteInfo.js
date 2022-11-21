@@ -14,7 +14,7 @@ import lightTheme from "./styles/themes/theme";
 
 // 1. Meta
 
-const siteName = "Zuzu's Hot 5";
+const siteName = "Ramona Martinez";
 // const siteName = "Cosima Hewes";
 
 // 2. Layout
@@ -31,14 +31,14 @@ const navbar = {
 
 const heroContent = {
     image: {
-        url: "/images/zuzus5.webp",
-        alt: "zuzu's hot five",
+        url: "/images/ramonaHero.webp",
+        alt: "Ramona Martinez with a guitar",
     },
 };
 
 const musicContent = {
     backgroundColor: "white",
-    title: "1920's Trad Jazz",
+    title: "Honky Tonk",
     songs: [
         { url: "/songs/muskrat-ramble.mp3", name: "Muskrat Ramble" },
         {
@@ -66,7 +66,7 @@ const musicContent = {
 
 const blockPhotoContentOne = {
     background: lightTheme.palette.background.accentLight,
-    title: "Looking to jazz up your next event?",
+    title: "Looking to throw down on your next event?",
     content: "Book Us Today!",
     button: {
         text: "Book Us!",
@@ -74,13 +74,13 @@ const blockPhotoContentOne = {
         variant: "contained",
     },
     image: {
-        url: "/images/zuzus1.webp",
-        alt: "people dancing",
+        url: "/images/ramonaPlaying.webp",
+        alt: "Ramona playing the guitar on stage",
     },
 };
 
 const eventsPreviewContent = {
-    image: { url: "/images/zuzus10.webp", alt: "events preview image" },
+    image: { url: "/images/ramonaSelfie.webp", alt: "ramona taking a selfie" },
     bigDividerImage: {
         url: "/images/eventsBorder.svg",
         alt: "events border",

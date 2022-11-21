@@ -6,12 +6,12 @@ let theme = createTheme({
         primary: {
             // main: "#ffc700",
             // main: "#d8c26c", //original gold
-            main: "#f9e07c", //lighter gold
-            off: "#FBFFF1",
+            main: "#EFD9CE", //lighter gold
+            accent: "#AEFFD8",
         },
         secondary: {
             // main: "#fe1d1d",
-            main: "#00857f",
+            main: "#BF4E30",
         },
         background: {
             default: "#FBFBF2",
@@ -35,9 +35,10 @@ let theme = createTheme({
     },
     fonts: {
         // header: "Playfair Display",
-        header: "Park Lane",
+        header: "Rye",
         body: "Raleway",
-        title: "Park Lane",
+        title: "Rye",
+        titleAccent: "Charmonman",
     },
 });
 
@@ -56,8 +57,7 @@ theme = createTheme(theme, {
             color: theme.palette.primary.main,
             // color: theme.palette.primary.off,
             lineHeight: ".85em",
-            fontSize: "clamp(4.5rem, 20vw, 30rem)",
-            letterSpacing: ".025em",
+            fontSize: "clamp(4.5rem, 15vw, 30rem)",
         },
         h2: {
             color: theme.palette.custom.primary,
